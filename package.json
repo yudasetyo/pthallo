@@ -1,0 +1,22 @@
+{
+  "name": "pthallo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build css/style.css -o src/tailwind/style.css",
+    "watch:tailwind": "nodemon --watch css/style.css tailwind.config.js -x \"npm run build:css\"",
+    "serve": "npm run watch:tailwind",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
