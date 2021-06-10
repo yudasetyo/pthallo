@@ -301,6 +301,9 @@ module.exports = {
           900: '#3e2723',
         },
       },
+      backgroundImage: theme => ({
+        'tentangkami': "url('src/img/4853433.jpg')",
+       }),
       spacing: {
         '7': '1.75rem',
         '9': '2.25rem',
