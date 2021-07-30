@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/tailwind/style.css">
+    <link rel="stylesheet" href="https://pagecdn.io/lib/font-awesome/5.10.0-11/css/all.min.css" integrity="sha256-p9TTWD+813MlLaxMXMbTA7wN/ArzGyW/L7c5+KkjOkM=" crossorigin="anonymous">
     <title>PT Hallo</title>
 </head>
 <body>
@@ -40,6 +41,14 @@
       </div>
     </div>
   </header>
+
+  <section class="loading-screen">
+    <div id="loading-screen" class="absolute inset-0 w-full bg-white flex justify-center items-center transition-all opacity-100 ease-in-out duration-1000 max-h-full max-w-full">
+      <span class="text-green-500 opacity-75 my-0 mx-auto block relative w-0 h-0">
+        <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+      </span>
+    </div>
+  </section>
 
   <section class="fitur">
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -177,7 +186,7 @@
             </div>
             <h6 class="mb-2 font-semibold leading-5">Penyedia Perangkat Komputer</h6>
             <p class="text-sm text-gray-700">
-              A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.
+              Kami hadir untuk anda dengan menyediakan perangkat komputer dan aksesoris yang lengkap serta bekualitas.
             </p>
           </div>
           <div class="max-w-md">
@@ -188,7 +197,7 @@
             </div>
             <h6 class="mb-2 font-semibold leading-5">Sistem Informasi Manajemen</h6>
             <p class="text-sm text-gray-700">
-              Rough pomfret lemon shark plownose chimaera southern sandfish kokanee northern sea robin Antarctic cod. Yellow-and-black triplefin.
+              PT. Hallo Indonesia Teknologi siap membantu anda dengan menciptakan Sistem Informasi Manajemen yang handal dan kredibel guna membuat kinerja sistem manajemen perusahaan anda optimal.
             </p>
           </div>
           <div class="max-w-md">
@@ -199,7 +208,7 @@
             </div>
             <h6 class="mb-2 font-semibold leading-5">Teknologi Informasi dan Komunikasi</h6>
             <p class="text-sm text-gray-700">
-              A slice of heaven. O for awesome, this chocka full cuzzie is as rip-off as a cracker. Meanwhile, in behind the bicycle shed, Hercules.
+              Di Era Digital ini, dunia membutuhkan Teknologi Informasi dan Komunikasi yang cepat serta handal. PT Hallo Indonesia Teknologi siap membantu anda untuk memilih produk yang sesuai dengan kebutuhan anda
             </p>
           </div>
           <div class="max-w-md">
@@ -210,7 +219,7 @@
             </div>
             <h6 class="mb-2 font-semibold leading-5">Pengembangan infrastruktur TI</h6>
             <p class="text-sm text-gray-700">
-              Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy capacity.
+              Perkembangan dunia Teknologi dan Informasi pada masa ini sangatlah cepat. Oleh karena itu, PT. Hallo Indonesia Teknologi siap membantu Anda dalam Pengembangan Infrastruktur IT untuk menunjang kinerja dan performa perusahaan anda.
             </p>
           </div>
           <div class="max-w-md">
@@ -221,7 +230,7 @@
             </div>
             <h6 class="mb-2 font-semibold leading-5">Jasa Konsultasi dan Pelatihan</h6>
             <p class="text-sm text-gray-700">
-              Disrupt inspire and think tank, social entrepreneur but preliminary thinking think tank compelling. Inspiring, invest synergy capacity.
+              Dengan di dukung oleh tim yang solid dan berkompeten serta berpengalaman dalam bidangnya, PT. Hallo Indonesia Teknologi siap membantu anda menciptakan Sumber Daya Manusia yang berkualitas dengan Konsultasi dan Pelatihan.
             </p>
           </div>
         </div>
@@ -254,10 +263,6 @@
 
               <div class="w-48 ml-16 max-w-xs">
                 <img class="object-cover mt-3 object-center w-full h-18 mx-auto rounded-lg" src="src/img/kerjasama/Intel.svg" alt="logointel" />
-              </div>
-
-              <div class="w-48 ml-16 max-w-xs">
-                <img class="object-cover mt-12 object-center w-full h-10 mx-auto rounded-lg" src="src/img/kerjasama/Samsung.svg" alt="logosamsung" />
               </div>
 
               <div class="w-48 ml-16 max-w-xs">
@@ -420,6 +425,8 @@
     </div>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <script src="src/js/carousel.js"></script>
+  <script src="src/js/loadingscreen.js"></script>
 </body>
 </html>
