@@ -35,6 +35,14 @@
     </div>
   </header>
 
+  <section class="loading-screen">
+    <div id="loading-screen" class="absolute inset-0 w-full bg-white flex justify-center items-center transition-all opacity-100 ease-in-out duration-1000 max-h-full max-w-full">
+      <span class="text-green-500 opacity-75 my-0 mx-auto block relative w-0 h-0">
+        <i class="fas fa-circle-notch fa-spin fa-5x"></i>
+      </span>
+    </div>
+  </section>
+
   <section class="produk">
   	<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
     <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -114,7 +122,7 @@
             <img src="src/img/sistem/smart_desa.jpg" class="object-cover w-full h-48 rounded-lg mb-3" alt="" />
             <h6 class="mb-2 font-semibold leading-5">Smart Desa</h6>
             <p class="text-sm text-gray-900">
-              Sportacus andrew weatherall goose Refined gentlemen super mario des lynam alpha trion zap rowsdower.
+              Smart Desa adalah Teknologi dalam bentuk aplikasi untuk menunjang aktivitas birokrasi hingga administrasi yang cepat dan tepat dengan pengendalian oleh pemerintah setempat guna mengejar ketertinggalan wilayah-wilayah terpencil.
             </p>
           </div>
         </div>
@@ -123,7 +131,7 @@
             <img src="src/img/sistem/informasi manajemen keuangan daerah.jpg" class="object-cover w-full h-48 rounded-lg mb-3" alt="" />
             <h6 class="mb-2 font-semibold leading-5">Sistem Informasi Manajemen Keuangan Daerah</h6>
             <p class="text-sm text-gray-900">
-            Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sistem Informasi Manajemen Keuangan Daerah adalah sistem terpadu yang di gunakan sebgai alat bantu untuk meningkatkan efektifitas implementasi keuangan dan pengendalian transaksi untuk tata kelola yang baik.
             </p>
           </div>
         </div>
@@ -190,7 +198,7 @@
               </p>
               <ul class="mt-2 space-y-2">
                 <li>
-                  <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">About Us</a>
+                  <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Tentang Kami</a>
                 </li>
                 <li>
                   <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Hubungi Kami</a>
@@ -277,5 +285,9 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <script src="src/js/carousel.js"></script>
+  <script src="src/js/loadingscreen.js"></script>
 </body>
 </html>
