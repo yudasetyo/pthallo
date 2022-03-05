@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "tailwindcss build css/style.css -o src/tailwind/style.css",
-    "watch:tailwind": "nodemon --watch css/style.css tailwind.config.js -x \"npm run build:css\"",
+    "watch:tailwind": "nodemon --watch css/style.css -x \"npm run build:css\"",
     "serve": "npm run watch:tailwind",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
-    "autoprefixer": "^10.3.7",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.17"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
   },
   "dependencies": {
     "nodemon": "^2.0.13"
